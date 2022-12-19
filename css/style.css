@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+body {
+    font-family: 'Rubik 80s Fade', cursive;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    filter: blur(5px);
+    top: 0;
+    left: 0;
+}
+
+
+.dropdown-content {
+        border: 5px solid rgba(0, 0, 0, 0.158);
+        border-radius: 20px;
+        display: none;
+        position: absolute;
+        background-color: #0300006b;
+    }
+
+
+.dropdown-content a {
+    padding: 0 50px;
+    text-decoration: none;
+    display: block;
+    font-size: 40px;
+    color: white; 
+  }
+
+  .dropdown-content a:hover {
+    text-decoration: line-through;
+  }
+
+
+  
+.dropdown:hover .dropdown-content {
+ display: block;
+
+ }
+ 
+
+ h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    color: whitesmoke;
+    background-clip: text;
+    transition: 300ms;
+ }
+
+ h4:hover {
+    color: white;
+    text-shadow: 3px 5px black, 0 0 1em rgb(128, 0, 96), 0 0 1em rgb(187, 10, 187);
+
+    ;
+ }
+
+.container {
+    font-size: 70px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(29, 0, 56, 0.26);
+    padding: 20px 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(7, 0, 3, 0.596);
+    border-radius: 20px;
+
+}
+
+a li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px black;
+    color: whitesmoke;
+    
+}
+
+ul {
+    display: flex;
+    list-style:none;
+}
+
+li a {
+    margin: 0 60px;
+    text-decoration: none;
+    font-size: 35px;
+    color: white; 
+    transition: 300ms;
+    text-shadow: 5px;
+    transform: rotate(356deg);
+    display: inline-flex;
+
+}
+
+a:focus {
+   color: rgba(228, 10, 217, 0.904);
+}
+
+a:hover {
+    color: rgba(240, 248, 255, 0.459);
+    
+}
+
+
+
+.trailer {
+    position: absolute;
+    width: 680px;
+    border: 1px solid rgba(128, 0, 128, 0.404);
+    border-radius: 20px;
+    top: 25px;
+    opacity: 0.8;
+    transition: 500ms;
+}
+
+.trailer:hover {
+    border-radius: 25px;
+    border: 20px solid rgba(186, 8, 192, 0.26);
+}
+
+.main-content {
+    left: 850px;
+    position: relative;
+    top: 24px;
+    display: inline-block;
+}
+
+.trailer-description {
+    font-size: 50px;
+    color: white;
+    left: 700px;
+    position: relative;
+    top: 20px;
+}
+
+
+p {
+    font-size: 30px;
+}
+
+.watch-now {
+    position: absolute;
+    text-decoration: overline;
+    color: aliceblue;
+    padding: 10px 15px;
+}
+
+.text-line {
+    padding: 100px 50px;
+    position: relative;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-top: 2px solid;
+    top: 800px;
+    text-align: left;
+    transition: 500ms;
+}
+
+.text-line:hover {
+    background-color: rgba(0, 0, 0, 0.699);
+    text-shadow: 3px 5px black, 0 0 1em rgb(7, 1, 5), 0 0 1em rgb(15, 1, 15);
+}
+
+.text-inside {
+    
+}
+
+.ins {
+    text-decoration: none;
+    color: rgba(240, 240, 240, 0.11);
+    text-shadow: 1px 1px white;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.instagram {
+    width: 32px;
+    position: relative;
+    right: 40px;
+    top: 40px;
+    
+}
+
+.twitter {
+    width: 32px;
+    position: relative;
+    right: 75px;
+    top: 80px;
+}
+
+.netflix {
+    width: 38px;
+    position: relative;
+    right: 113px;
+    top: 120px;
+}
+
+.ins:hover {
+    text-decoration: underline;
+}
+
+.girl {
+    left: 1523px;
+    top: 2px;
+    width: 380px;  
+    height: 350px;
+    position: absolute;
+    opacity: 0.6;
+    transition: 500ms;
+}
+
+.girl:hover {
+    box-shadow:  0 0 3em rgb(255, 7, 172), 0 0 3em rgb(224, 12, 224);
+
+}
