@@ -123,13 +123,18 @@ a:hover {
     border-radius: 20px;
     top: 25px;
     opacity: 0.8;
-    transition: 500ms;
+    transition: 700ms;
+    filter: brightness(135%);
+
 }
 
 .trailer:hover {
     border-radius: 25px;
-    border: 20px solid rgba(186, 8, 192, 0.26);
+    border: 20px solid rgba(220, 9, 228, 0.26);
+    filter: blur(5px);
+
 }
+
 
 .main-content {
     left: 850px;
@@ -167,6 +172,7 @@ p {
     top: 800px;
     text-align: left;
     transition: 500ms;
+    animation: mymove 1s infinite;
 }
 
 .text-line:hover {
@@ -174,9 +180,7 @@ p {
     text-shadow: 3px 5px black, 0 0 1em rgb(7, 1, 5), 0 0 1em rgb(15, 1, 15);
 }
 
-.text-inside {
-    
-}
+
 
 .ins {
     text-decoration: none;
@@ -213,9 +217,9 @@ p {
 }
 
 .girl {
-    left: 1523px;
+    left: 1483px;
     top: 2px;
-    width: 380px;  
+    width: 420px;  
     height: 350px;
     position: absolute;
     opacity: 0.6;
@@ -226,3 +230,39 @@ p {
     box-shadow:  0 0 3em rgb(255, 7, 172), 0 0 3em rgb(224, 12, 224);
 
 }
+
+/* .skull {
+    position: relative;
+    width: 120px;
+    bottom: 120px;
+    right: 15px;
+    animation: skull 4s infinite;
+}
+
+@keyframes skull {
+  0%{left: 100px;}
+  100%{left: 1783px;}
+}
+ */
+
+
+  .spider {
+    position: absolute;
+    width: 100px;
+    bottom: 830px;
+    animation: spider 4s infinite;
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+@keyframes spider {
+    0%{left: 100px;}
+    100%{left: 1783px;}
+  }
+  
+  .spider:hover {
+    opacity: 1;
+    transform: skewY(180deg);
+    width: 50px;
+  }
+   
